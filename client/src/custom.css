@@ -1,0 +1,46 @@
+#title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#pokeball-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+#pokedex-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+#pokeball-icons {
+  display: flex;
+  align-items: center;
+}
+
+.pokeball-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.label-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: calc(5 * 100px);
+  margin-top: 0.5rem;
+}
+
+.label-wrapper label {
+  margin: 0.2rem;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
